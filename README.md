@@ -73,12 +73,12 @@ Este projeto foi desenvolvido como parte de um **processo seletivo** para avalia
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/sinqia-bank-api.git
+   git clone git@github.com:darosepedro/SinqiaBankHiringProccess.git
    ```
 
 2. **Navegue até o diretório do projeto**:
    ```bash
-   cd sinqia-bank-api
+   cd SinqiaBankHireProccess\SinqiaBank
    ```
 
 3. **Restaure as dependências**:
@@ -155,17 +155,20 @@ O projeto inclui **testes automatizados** com **xUnit** e **Moq** para validar o
 ## **Estrutura do Projeto**
 
 ```
-/src
+/SinqiaBankHireProccess
 ├── /Application
 │   └── /Interfaces           # Interfaces para serviços
+│   └── /Services             # Classes de Serviços
 ├── /Controllers              # Controllers da API
 ├── /Core
 │   ├── /Entities             # Entidades do projeto (ex.: Order)
 │   └── /Observers            # Implementação do Observer Pattern
+│   └── /Validators           # Implementação do Validator Pattern
 ├── /Infrastructure           # Implementações de serviços e notificador
 └── Program.cs                # Configuração principal da aplicação
-/tests
-└── SinqiaBank.Tests           # Projeto de testes unitários com xUnit
+/SinqiaBankHireProccess.Tests  # Projeto de testes unitários com xUnit
+├── /UnitTests
+
 ```
 
 ---
