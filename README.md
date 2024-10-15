@@ -169,9 +169,9 @@ O projeto inclui **testes automatizados** com **xUnit** e **Moq** para validar o
 
 ## **Contato**
 
-- **Autor**: [Seu Nome]  
-- **E-mail**: [seu.email@exemplo.com]  
-- **LinkedIn**: [https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/seu-perfil)
+- **Autor**: Pedro M L Nascimento  
+- **E-mail**: darosepedro@gmail.com  
+- **LinkedIn**: https://www.linkedin.com/in/pedro-nascimento-dotnet/ (https://www.linkedin.com/in/pedro-nascimento-dotnet/)
 
 ---
 
