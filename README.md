@@ -42,9 +42,12 @@ Este projeto foi desenvolvido como parte de um **processo seletivo** para avalia
 
 ## **Padrões de Design Implementados**
 
+- **Validation**: Implementado um validador básico de usuário.
+- **Dependency Injection**: Garantindo modularidade e testabilidade.
+- **Factory Method**: Implementado para criar diferentes tipos de produtos..
 - **Observer Pattern**: Utilizado para notificar observadores sobre eventos, como a criação de pedidos.
-- **Injeção de Dependência (Dependency Injection)**: Garantindo modularidade e testabilidade.
-- **Singleton**: Implementado para o notificador de eventos (EventNotifier).
+- **Singleton**: Implementado para garantir uma única instância global para o notificador de eventos (EventNotifier).
+- **Test Coverage**: Criados testes unitários com xUnit.
 
 ---
 
